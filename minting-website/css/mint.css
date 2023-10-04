@@ -1,0 +1,34 @@
+.mint {
+  padding: 100px 0;
+  transition: all 0.3s ease;
+}
+
+.mint .title::after {
+  content: "민팅";
+}
+
+.mint .mint-content {
+  margin-bottom: 100px;
+}
+
+.mint .mint-content .p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.mint .button button {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(255, 164, 45);
+  background-color: rgb(255, 164, 45);
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.mint .button button:hover {
+  color: rgb(255, 164, 45);
+  background: none;
+}
