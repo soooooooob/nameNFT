@@ -1,0 +1,78 @@
+.people {
+  padding: 100px 0;
+  transition: all 0.3s ease;
+}
+
+/* .about .title::after {
+    content: "Who I am";
+  }
+   */
+.people .people-content {
+  margin-bottom: 100px;
+}
+
+.people .people-content .left {
+  width: 45%;
+}
+
+.people .people-content .left img {
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.people .people-content .fields {
+  display: flex;
+}
+.people .people-content .field,
+.people .people-content .fields .field {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.people .people-content .right {
+  margin-bottom: 50px;
+}
+.people .people-content .right .content-area {
+  height: 80px;
+  width: 100%;
+}
+.people .right form .skills {
+  margin-right: 10px;
+}
+.people .right form .license {
+  margin-left: 10px;
+}
+.people .right form .workexperience {
+  margin-left: 10px;
+}
+.people .right form .field input,
+.people .right form .content-area textarea {
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgb(255, 164, 45);
+  border-radius: 6px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.people .right form .content-area textarea {
+  padding-top: 10px;
+  resize: none;
+}
+/* .people .right form .button button {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(255, 164, 45);
+  background-color: rgb(255, 164, 45);
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.people .right form .button button:hover {
+  color: rgb(255, 164, 45);
+  background: none;
+} */
